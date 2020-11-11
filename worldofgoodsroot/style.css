@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0;
+    background-image: url("../worldofgoodsroot/img/streetwear2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(246, 247, 250, 0.5);
+    background-image: url("../worldofgoodsroot/img/Wof.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+/*Search bar styling*/
+  nav input[type=text] {
+    float: left;
+    padding: 6px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin: 35px;
+    font-size: 12px;
+  }
+  
+
+ .container{
+     font-family: 'Times New Roman', Times, serif;
+     margin: 130px;
+     text-decoration: wavy;
+ } 
+
+ nav .btn {
+    background-color: #5E5E5E;
+    float: right;
+    border: 0.5rem;
+    margin: 30px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 11px;
+    cursor: pointer;
+ }
+nav .btn-s {
+  margin-left: -30px;
+  margin-top: 38px;
+  
+}
+  ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+  
+  }
+  
+  ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial;
+    color: #1e1e1e;
+    padding: 0 20px;
+  }
+  
+  ul li a:hover{
+    color: #F54350;
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+      position: absolute;
+      bottom: 10px;
+      left: 16px;
+      text-decoration: none;
+    }
+  
+  .centered-tag {
+    font-family: 'Berkshire Swash', Times, serif, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-style: arial;
+    letter-spacing: 2px;
+    background-color: rgba(116, 145, 125, 0.7);
+  }
+  
+  .centered {
+    font-family: 'Bebas Neue', Times, serif, Helvetica, sans-serif;
+    font-size: 65px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    background-color: rgba(245, 22, 20, 0.7);
+   }
+
+   .z-code input[type=text] {
+    float: none;
+    padding: 6px;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.z-code .btn{
+    background-color: #5E5E5E;
+    float: none;
+    border: 0.5rem;
+    margin-left: 70px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 11px;
+    cursor: pointer;   
+}
+
+  
+   .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(168, 142, 142, 0.5);
+    color: white;
+    text-align: center;
+    background-image: url("../worldofgoodsroot/img/Wof.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: contain;
+  }
+  .footer a{
+      font-family: 'Baumans', 'Times New Roman', Times, serif;
+      text-decoration: none;
+      color: rgba(235, 235, 235,1);
+      cursor: pointer;
+  }
+  .footer P{
+      margin-top: 10px;
+      font-family: 'Baumans', 'Times New Roman', Times, Serif;
+      text-align: right;
+  }
+
+/*SPLASH*/
+
+.fling-minislide {
+    background-position: center;
+    width:156px; 
+    height:156px; 
+    overflow:hidden; 
+    position:relative; 
+    
+}
+.fling-minislide img{ 
+    background-size: contain;
+    margin-left: 50px;
+    margin-top: 60px;
+    position:absolute; 
+    animation:fling-minislide 20s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height: auto;
+}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left; /* Float side by side */
+    text-align: center;
+    text-decoration: none;
+    width: 20%; /* Equal width */
+    padding: 12px 0;
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Hover color */
+  }
+  
+  .active {
+    background-color: #4CAF50; /* Active/current tab color */
+  }

@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     height: 100%;
     margin: 0;
     background-image: url("../worldofgoodsroot/img/streetwear2.jpg");
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -14,6 +16,8 @@
   nav {
     width: 100%;
     height: 100px;
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgba(246, 247, 250, 0.5);
     background-image: url("../worldofgoodsroot/img/Wof.png");
     background-repeat: no-repeat;
@@ -38,9 +42,10 @@
 
  nav .btn {
     background-color: #5E5E5E;
-    float: right;
+    
     border: 0.5rem;
-    margin: 30px;
+    
+    margin-left: 620px;
     color: white;
     padding: 8px 10px;
     font-size: 11px;
@@ -53,7 +58,7 @@ nav .btn-s {
 }
   ul li{
     list-style: none;
-    display: inline-block;
+    /*display: inline-block;*/
     float: left;
     line-height: 100px;
   
@@ -88,25 +93,42 @@ nav .btn-s {
   .centered-tag {
     font-family: 'Berkshire Swash', Times, serif, Helvetica, sans-serif;
     font-size: 30px;
+    color: rgba(20, 27, 22, 1);
+    /*
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -30%);
+    */
     font-style: arial;
     letter-spacing: 2px;
-    background-color: rgba(116, 145, 125, 0.7);
+    /*background-color: rgba(116, 145, 125, 0.7);*/
+    padding: 0 20px;
   }
   
   .centered {
+    /*display: flex;
+    flex-wrap: wrap;*/
     font-family: 'Bebas Neue', Times, serif, Helvetica, sans-serif;
     font-size: 65px;
     letter-spacing: 4px;
+    /*    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -150%);
-    background-color: rgba(245, 22, 20, 0.7);
+    */
+    margin-left: 0px;
+    margin-top: -100px;
+    
+    /*background-color: rgba(245, 22, 20, 0.7);*/
+  
+    padding: 0 20px;
    }
+
+  span {
+    background-color: rgba(245, 22, 20, 0.7);
+  }
 
    .z-code input[type=text] {
     float: none;
@@ -121,7 +143,7 @@ nav .btn-s {
     background-color: #5E5E5E;
     float: none;
     border: 0.5rem;
-    margin-left: 70px;
+    margin-left: 0px;
     color: white;
     padding: 8px 10px;
     font-size: 11px;
@@ -162,6 +184,7 @@ nav .btn-s {
     height:156px; 
     overflow:hidden; 
     position:relative; 
+    margin-bottom: 150px;
     
 }
 .fling-minislide img{ 
@@ -185,6 +208,7 @@ nav .btn-s {
     width: 100%; /* Full-width */
     background-color: #555; /* Dark-grey background */
     overflow: auto; /* Overflow due to float */
+    margin-bottom: 70px;
   }
   
   .icon-bar a {
@@ -192,10 +216,10 @@ nav .btn-s {
     text-align: center;
     text-decoration: none;
     width: 20%; /* Equal width */
-    padding: 12px 0;
+    padding: 10px 0;
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: white;
-    font-size: 20px;
+    font-size: 15px;
   }
   
   .icon-bar a:hover {
@@ -204,4 +228,10 @@ nav .btn-s {
   
   .active {
     background-color: #4CAF50; /* Active/current tab color */
+  }
+
+  img{
+    
+    max-width: 100%;
+      height: auto;
   }

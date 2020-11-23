@@ -3,6 +3,8 @@
   <head>
     <title>World of Fashion</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Baumans' rel='stylesheet'>
@@ -11,26 +13,27 @@
   </head>
   <body>
     <nav>
+      <div class="flex-container">
       <ul>
-        <li><a href="#">Home</a> </li>
-        <li><a href="#">What's New</a> </li>
-        <li><a href="#">Men</a></li>
-        <li><a href="#">Women</a></li>
-        <input type="text" placeholder="Search"><button class=btn-s><i class="fab fa-searchengin"></i></button>
-        <button class="btn"><i class="fas fa-cart-arrow-down"></i> Cart</button>
+       <li><a href="#">Home</a> </li>
+       <li><a href="#">What's New</a> </li>
+       <li><a href="#">Men</a></li>
+       <li><a href="#">Women</a></li>
+       <input type="text" placeholder="Search"><button class=btn-s><i class="fab fa-searchengin"></i></button>
+       <button class="btn"><i class="fas fa-cart-arrow-down"></i> Cart</button>
       </ul>
+    </div>
     </nav>
 <section>
-    <div class="container">
-      <div class="centered">World of Fashion</div>
+    <div class="container", class="flex-container">
+      <div class="centered"><span>World of Fashion</span></div>
       <div class="centered-tag">Because image is Everything!</div>
     </div>
 </section>
 
 <section>
     <div class="z-code">
-    <input type="text" placeholder="Zip Code"><br>
-    <button class="btn"><i class="fas fa-check-circle"></i> Go!</button>
+    <input type="text" placeholder="Zip Code"><button class="btn"><i class="fas fa-check-circle"></i> Go!</button>
 </div>
 </section>
 
@@ -53,7 +56,7 @@
 <div class="icon-bar">
   <a class="active" href="#"><i class="fa fa-home"></i>Home</a>
   <a href="#"><i class="fa fa-search"></i>Search</a>
-  <a href="#"><i class="far fa-newspaper"></i>News</a>
+  <a href="#"><i class="far fa-newspaper"></i>About</a>
   <a href="#"><i class="fas fa-phone-alt"></i>Contact Us</a>
   <a href="#"><i class="fas fa-tags"></i>Discounts</a>
 </div>
